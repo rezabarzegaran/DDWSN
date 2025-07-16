@@ -1,13 +1,10 @@
 function [p,v] = DisDroneDynamics(p0,v0,u, v_bound, a_bound, dt)
 % This is the Discrete drone dynamics function.
 cx=0;
-%ax=100*dt;
 ax=1;
 cy=0;
-%ay=100*dt;
 ay=1;
 cz=0;
-%az=100*dt;
 az=1;
 
 
